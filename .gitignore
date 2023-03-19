@@ -34,8 +34,6 @@ ipch/
 *.cbproj
 *.cbprj
 *.res
-*.hpp
-*.cpp
 *.dfm
 *.dcu
 *.dci
