@@ -39,6 +39,7 @@ ipch/
 *.dci
 *.bpi
 *.lib
+*.tds
 
 # Ignore configuration files
 *.cfg
