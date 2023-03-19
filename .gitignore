@@ -1,0 +1,57 @@
+# Ignore binary directories and executable files
+/bin/
+/Debug/
+/Release/
+
+# Ignore project files and IDE settings
+*.bpr
+*.aps
+*.dsk
+*.cfg
+
+# Ignore temporary files and logs
+*.obj
+*.tlog/
+*.~*
+
+# Ignore application output files
+*.exe
+*.dll
+*.bpl
+
+# Ignore backup files
+*.bak
+*.~*
+
+# Ignore Visual Studio temporary files
+ipch/
+*.ncb
+*.suo
+*.pdb
+*.ilk
+
+# Ignore C++ Builder project files
+*.cbproj
+*.cbprj
+*.res
+*.hpp
+*.cpp
+*.dfm
+*.dcu
+*.dci
+*.bpi
+*.lib
+
+# Ignore configuration files
+*.cfg
+*.ini
+*.inf
+*.reg
+*.dat
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.o
+*.obj
+*.dSYM/
