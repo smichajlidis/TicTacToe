@@ -13,8 +13,23 @@ char f1,f2,f3,f4,f5,f6,f7,f8,f9,who;
 
 void check() {
 
-        ;
+        if ((f1==f2 && f2==f3 && f1!='n') ||
+           (f4==f5 && f5==f6 && f4!='n') ||
+           (f7==f8 && f8==f9 && f7!='n') ||
+           (f1==f4 && f4==f7 && f1!='n') ||
+           (f2==f5 && f5==f8 && f2!='n') ||
+           (f3==f6 && f6==f9 && f3!='n') ||
+           (f1==f5 && f5==f9 && f1!='n') ||
+           (f3==f5 && f5==f7 && f3!='n')) {
 
+           char * w;
+
+           if (who=='x') w="O wins!";
+           else w="X wins!";
+
+           Application->MessageBoxA(w, "Game over", MB_OK);
+           Form1->FormCreate(Application);
+        }
 }
 
 //---------------------------------------------------------------------------
@@ -42,6 +57,16 @@ void __fastcall TForm1::FormCreate(TObject *Sender)
         f7='n'; f8='n'; f9='n';
 
         who='o';
+
+        field1->Enabled=true;
+        field2->Enabled=true;
+        field3->Enabled=true;
+        field4->Enabled=true;
+        field5->Enabled=true;
+        field6->Enabled=true;
+        field7->Enabled=true;
+        field8->Enabled=true;
+        field9->Enabled=true;
 }
 //---------------------------------------------------------------------------
 void __fastcall TForm1::field1Click(TObject *Sender)
