@@ -9,7 +9,13 @@
 #pragma resource "*.dfm"
 TForm1 *Form1;
 
-        char f1,f2,f3,f4,f5,f6,f7,f8,f9,who;
+char f1,f2,f3,f4,f5,f6,f7,f8,f9,who;
+
+void check() {
+
+        ;
+
+}
 
 //---------------------------------------------------------------------------
 __fastcall TForm1::TForm1(TComponent* Owner)
@@ -54,6 +60,167 @@ void __fastcall TForm1::field1Click(TObject *Sender)
                         f1='x';
                 }
                 field1->Enabled=false;
+                check();
+        }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::field2Click(TObject *Sender)
+{
+        if (f2=='n') {
+                if (who=='o') {
+                        field2->Picture->LoadFromFile("img/o.bmp");
+                        turn->Picture->LoadFromFile("img/xsmall.bmp");
+                        who='x';
+                        f2='o';
+                }
+                else {
+                        field2->Picture->LoadFromFile("img/x.bmp");
+                        turn->Picture->LoadFromFile("img/osmall.bmp");
+                        who='o';
+                        f2='x';
+                }
+                field2->Enabled=false;
+                check();
+        }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::field3Click(TObject *Sender)
+{
+        if (f3=='n') {
+                if (who=='o') {
+                        field3->Picture->LoadFromFile("img/o.bmp");
+                        turn->Picture->LoadFromFile("img/xsmall.bmp");
+                        who='x';
+                        f3='o';
+                }
+                else {
+                        field3->Picture->LoadFromFile("img/x.bmp");
+                        turn->Picture->LoadFromFile("img/osmall.bmp");
+                        who='o';
+                        f3='x';
+                }
+                field3->Enabled=false;
+                check();
+        }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::field4Click(TObject *Sender)
+{
+        if (f4=='n') {
+                if (who=='o') {
+                        field4->Picture->LoadFromFile("img/o.bmp");
+                        turn->Picture->LoadFromFile("img/xsmall.bmp");
+                        who='x';
+                        f4='o';
+                }
+                else {
+                        field4->Picture->LoadFromFile("img/x.bmp");
+                        turn->Picture->LoadFromFile("img/osmall.bmp");
+                        who='o';
+                        f4='x';
+                }
+                field4->Enabled=false;
+                check();
+        }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::field5Click(TObject *Sender)
+{
+        if (f5=='n') {
+                if (who=='o') {
+                        field5->Picture->LoadFromFile("img/o.bmp");
+                        turn->Picture->LoadFromFile("img/xsmall.bmp");
+                        who='x';
+                        f5='o';
+                }
+                else {
+                        field5->Picture->LoadFromFile("img/x.bmp");
+                        turn->Picture->LoadFromFile("img/osmall.bmp");
+                        who='o';
+                        f5='x';
+                }
+                field5->Enabled=false;
+                check();
+        }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::field6Click(TObject *Sender)
+{            
+        if (f6=='n') {
+                if (who=='o') {
+                        field6->Picture->LoadFromFile("img/o.bmp");
+                        turn->Picture->LoadFromFile("img/xsmall.bmp");
+                        who='x';
+                        f6='o';
+                }
+                else {
+                        field6->Picture->LoadFromFile("img/x.bmp");
+                        turn->Picture->LoadFromFile("img/osmall.bmp");
+                        who='o';
+                        f6='x';
+                }
+                field6->Enabled=false;
+                check();
+        }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::field7Click(TObject *Sender)
+{
+        if (f7=='n') {
+                if (who=='o') {
+                        field7->Picture->LoadFromFile("img/o.bmp");
+                        turn->Picture->LoadFromFile("img/xsmall.bmp");
+                        who='x';
+                        f7='o';
+                }
+                else {
+                        field7->Picture->LoadFromFile("img/x.bmp");
+                        turn->Picture->LoadFromFile("img/osmall.bmp");
+                        who='o';
+                        f7='x';
+                }
+                field7->Enabled=false;
+                check();
+        }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::field8Click(TObject *Sender)
+{
+        if (f8=='n') {
+                if (who=='o') {
+                        field8->Picture->LoadFromFile("img/o.bmp");
+                        turn->Picture->LoadFromFile("img/xsmall.bmp");
+                        who='x';
+                        f8='o';
+                }
+                else {
+                        field8->Picture->LoadFromFile("img/x.bmp");
+                        turn->Picture->LoadFromFile("img/osmall.bmp");
+                        who='o';
+                        f8='x';
+                }
+                field8->Enabled=false;
+                check();
+        }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm1::field9Click(TObject *Sender)
+{
+        if (f9=='n') {
+                if (who=='o') {
+                        field9->Picture->LoadFromFile("img/o.bmp");
+                        turn->Picture->LoadFromFile("img/xsmall.bmp");
+                        who='x';
+                        f9='o';
+                }
+                else {
+                        field9->Picture->LoadFromFile("img/x.bmp");
+                        turn->Picture->LoadFromFile("img/osmall.bmp");
+                        who='o';
+                        f9='x';
+                }
+                field9->Enabled=false;
+                check();
         }
 }
 //---------------------------------------------------------------------------

@@ -26,6 +26,14 @@ __published:	// IDE-managed Components
         TButton *Button1;
         void __fastcall FormCreate(TObject *Sender);
         void __fastcall field1Click(TObject *Sender);
+        void __fastcall field2Click(TObject *Sender);
+        void __fastcall field3Click(TObject *Sender);
+        void __fastcall field4Click(TObject *Sender);
+        void __fastcall field5Click(TObject *Sender);
+        void __fastcall field6Click(TObject *Sender);
+        void __fastcall field7Click(TObject *Sender);
+        void __fastcall field8Click(TObject *Sender);
+        void __fastcall field9Click(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
         __fastcall TForm1(TComponent* Owner);
